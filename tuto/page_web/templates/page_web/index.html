@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     {% load static %}
-    <link rel="stylesheet" href="{% static 'page_web/style2.css' %}" />  
+    <link rel="stylesheet" href="{% static 'page_web/style1.css' %}" />  
     
     <title>Home</title>
 </head>
@@ -16,5 +16,9 @@
     <div class="div">
         <img src="../../static/page_web/django.jpeg" alt="">
     </div>
+    <div class="lien">
+        <a href="{% url 'page2' %}">Page 2</a>
+    </div>
+    
 </body>
 </html>
